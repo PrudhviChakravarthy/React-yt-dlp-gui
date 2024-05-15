@@ -30,4 +30,57 @@
 <img src="./temp/image2.PNG">
 <img src="./temp/image3.PNG">
 
-<video src="/temp/sample.mp4" width = 1080 />
+<hr>
+Note:
+<ul align = "left">
+      <li>
+        Sometimes, the websockets in the backend can suddenly stop if you try to connect before a download is complete.
+      </li>
+      <li>
+        There is no support for tiktok or any banned websites that are not allowed in your ip.
+      </li>
+</ul>
+<hr>
+<h2>Pre Requirements</h2>
+<ul>
+    <li>
+        ffmpeg
+    </li>
+    <li>
+    yt-dlp
+    </li>
+</ul>
+<hr>
+<h2>How to Use</h2>
+<ul>
+<li>
+Clone the repo <code> https://github.com/PrudhviChakravarthy/React-yt-dlp-gui.git </code>
+</li>
+
+<h3>Frontend installation</h3>
+<li>1) 
+<code> cd React-yt-dlp-gui</code>
+</li>
+<li>2) 
+<code> cd frontend</code>
+</li>
+<li>3) 
+<code> npm install</code>
+</li>
+<li>1) 
+<code> npm start</code>
+</li>
+<h3>Backend installation</h3>
+<li>1) 
+<code> cd React-yt-dlp-gui</code>
+</li>
+<li>2) 
+<code> cd backend</code>
+</li>
+<li>3) 
+<code> npm install nodemon -g</code>
+</li>
+<li>4) 
+<code> nodemon </code>
+</li>
+<hr>
