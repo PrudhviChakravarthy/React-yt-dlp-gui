@@ -1,0 +1,152 @@
+.thumbimg{
+    max-width: 900px;
+    max-height: 350px;
+    border-radius: var(--p-borderradius);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.titlename{
+    font-weight: 100;
+    font-size: x-large;
+    width: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxesformat{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: var(--s-borderradius);
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 50px;
+  width: 300px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+.audiosbl{
+    position: absolute;
+    right: 0;
+}
+
+.boxesformat:hover{
+    transform: scale(0.95);
+    background-color: #f3d2d2;
+
+   }
+.active{
+    background: linear-gradient(to right,#3d7eff ,#f16933);
+    transform: scale(0.95);
+   }
+
+.boxesformat p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+    margin: 0;
+}
+.formats{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formatdetails {
+    width: auto;
+    justify-content: center;
+    border-radius: var(--p-borderradius);
+    height: 100%;
+    margin: 3px;
+    padding: 5px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+}
+.language{
+    background-color: rgb(54, 229, 252);
+}
+
+
+.formatp{
+    background-color: rgb(114, 242, 247)
+}
+.extensionp{
+    background-color: rgb(71, 248, 130)
+}
+.dynamicp{
+    background-color: rgb(224, 211, 91)
+}
+.filesizep{
+    background-color: rgb(221, 130, 248)
+}
+
+.sublang{
+    background-color: #85fd61;
+}
+
+.metadata{
+    display: flex;
+    font-family: "JetBrains Mono",monospace;
+
+    flex-direction: row;
+    width: 100vw;
+}
+
+
+.selected{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+@media screen and (max-width : 700px)  {
+    .metadata{
+        flex-direction: column;
+        width: 90vw;
+        min-width: 300px;
+        margin: 20px;
+    }
+    .formats{
+        flex-direction: column;
+        min-width: 300px;
+
+    }
+    .boxesformat{
+        width: 90vw;
+        min-width: 300px;
+    }
+    .formatdetails{
+        align-items: center;
+    }
+
+    .thumbimg{
+        width: 90vw;
+        min-width: 300px;
+        max-height: 500px;
+    }
+    
+}

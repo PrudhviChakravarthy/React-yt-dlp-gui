@@ -1,0 +1,499 @@
+{
+	"title": "WILD WORLD DOLBY VISION™ | EXTREME COLORS [8K HDR]",
+	"thumb": "https://i.ytimg.com/vi_webp/Rwe5Aw3KPHY/maxresdefault.webp",
+	"duration": 2684,
+	"videoformats": {
+		"18": {
+			"filesize": "183.45MB",
+			"resolution": "640x360",
+			"audio_channels": 2,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"22": {
+			"filesize": null,
+			"resolution": "1280x720",
+			"audio_channels": 2,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"133": {
+			"filesize": "38.22MB",
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"134": {
+			"filesize": "79.09MB",
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"135": {
+			"filesize": "132.16MB",
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"136": {
+			"filesize": "438.88MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"160": {
+			"filesize": "17.11MB",
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"229": {
+			"filesize": null,
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"230": {
+			"filesize": null,
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"231": {
+			"filesize": null,
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"242": {
+			"filesize": "36.93MB",
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"243": {
+			"filesize": "95.78MB",
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"244": {
+			"filesize": "138.22MB",
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"247": {
+			"filesize": "277.83MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"269": {
+			"filesize": null,
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"278": {
+			"filesize": "21.56MB",
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"298": {
+			"filesize": "744.96MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"299": {
+			"filesize": "1362.57MB",
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"302": {
+			"filesize": "588.83MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"303": {
+			"filesize": "1042.87MB",
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"308": {
+			"filesize": "3196.10MB",
+			"resolution": "2560x1440",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"311": {
+			"filesize": null,
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"312": {
+			"filesize": null,
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"315": {
+			"filesize": "7648.93MB",
+			"resolution": "3840x2160",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "SDR"
+		},
+		"330": {
+			"filesize": "64.32MB",
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"331": {
+			"filesize": "139.27MB",
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"332": {
+			"filesize": "309.41MB",
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"333": {
+			"filesize": "597.46MB",
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"334": {
+			"filesize": "1400.00MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"335": {
+			"filesize": "2153.81MB",
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"336": {
+			"filesize": "5154.14MB",
+			"resolution": "2560x1440",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"337": {
+			"filesize": "9189.82MB",
+			"resolution": "3840x2160",
+			"audio_channels": null,
+			"extension": "webm",
+			"dynamic_range": "HDR10"
+		},
+		"602": {
+			"filesize": null,
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"603": {
+			"filesize": null,
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"604": {
+			"filesize": null,
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"605": {
+			"filesize": null,
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"606": {
+			"filesize": null,
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"612": {
+			"filesize": null,
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"617": {
+			"filesize": null,
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"623": {
+			"filesize": null,
+			"resolution": "2560x1440",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"628": {
+			"filesize": null,
+			"resolution": "3840x2160",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "SDR"
+		},
+		"631": {
+			"filesize": null,
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"632": {
+			"filesize": null,
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"633": {
+			"filesize": null,
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"634": {
+			"filesize": null,
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"635": {
+			"filesize": null,
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"636": {
+			"filesize": null,
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"639": {
+			"filesize": null,
+			"resolution": "2560x1440",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"642": {
+			"filesize": null,
+			"resolution": "3840x2160",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"694": {
+			"filesize": "36.74MB",
+			"resolution": "256x144",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"695": {
+			"filesize": "78.42MB",
+			"resolution": "426x240",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"696": {
+			"filesize": "166.32MB",
+			"resolution": "640x360",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"697": {
+			"filesize": "318.55MB",
+			"resolution": "854x480",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"698": {
+			"filesize": "941.83MB",
+			"resolution": "1280x720",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"699": {
+			"filesize": "1533.31MB",
+			"resolution": "1920x1080",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"700": {
+			"filesize": "4429.33MB",
+			"resolution": "2560x1440",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"701": {
+			"filesize": "7880.95MB",
+			"resolution": "3840x2160",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		},
+		"702": {
+			"filesize": "15764.73MB",
+			"resolution": "7680x4320",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": "HDR10"
+		}
+	},
+	"audioformats": {
+		"139": {
+			"filesize": "15.61MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "m4a",
+			"dynamic_range": null
+		},
+		"140": {
+			"filesize": "41.43MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "m4a",
+			"dynamic_range": null
+		},
+		"233": {
+			"filesize": null,
+			"resolution": "audio only",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": null
+		},
+		"234": {
+			"filesize": null,
+			"resolution": "audio only",
+			"audio_channels": null,
+			"extension": "mp4",
+			"dynamic_range": null
+		},
+		"249": {
+			"filesize": "16.89MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		},
+		"250": {
+			"filesize": "22.48MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		},
+		"251": {
+			"filesize": "43.99MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		},
+		"139-drc": {
+			"filesize": "15.61MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "m4a",
+			"dynamic_range": null
+		},
+		"249-drc": {
+			"filesize": "17.04MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		},
+		"250-drc": {
+			"filesize": "22.73MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		},
+		"140-drc": {
+			"filesize": "41.43MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "m4a",
+			"dynamic_range": null
+		},
+		"251-drc": {
+			"filesize": "44.16MB",
+			"resolution": "audio only",
+			"audio_channels": 2,
+			"extension": "webm",
+			"dynamic_range": null
+		}
+	}
+}

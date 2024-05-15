@@ -1,0 +1,29 @@
+:root{
+  --primarycolor : rgb(253, 175, 175);
+  --pbackgroundcolor :none;
+  --p-borderradius : 30px;
+  --s-borderradius : 5px;
+  --p-backgroundshadow : rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; 
+}
+
+*::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+*{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+body {
+  margin: 0;
+  border:0;
+  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
