@@ -30,4 +30,4 @@
 <img src="./temp/image2.PNG">
 <img src="./temp/image3.PNG">
 
-<video src="/temp/sample.mp4" width = 1080 />
+![](./temp/sample.mp4)
