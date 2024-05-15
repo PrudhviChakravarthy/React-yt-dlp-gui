@@ -29,8 +29,6 @@
 <img src="./temp/image1.PNG">
 <img src="./temp/image2.PNG">
 <img src="./temp/image3.PNG">
-
-<<<<<<< HEAD
 <hr>
 Note:
 <ul align = "left">
