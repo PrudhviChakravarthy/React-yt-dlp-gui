@@ -43,20 +43,31 @@ export default function SearchButton() {
     }, 3000); //
   }
 
+  function linkset(e){
+    setlink(e.target.value)
+  }
+
+  function clearsearch(){
+    setvideodetails("")
+    setlink("")
+  }
+
   return (
     <>
     <div  className='search'>
         <input 
           className='searchbox'
           placeholder='Paste Your Video link here'
-          onChange={(e)=> setlink(e.target.value)}
+          value={link}
+          onChange={linkset}
           ></input>
+          <div className='clear' onClick={clearsearch}><p>Clear</p></div>
           <button onClick={getvideolink} className='searchbtn'>Search</button>
     </div>
     <div className='maincontent'>
     {loading ?<Loading/> : videodetails 
     ?<Videodetails  url ={link} metadata={videodetails.metadata} audioformats = {videodetails.audioformats} videoformats = {videodetails.videoformats} subtitles = {videodetails.subtitles} />:<h1>Main page here</h1>}
-    {message && msgtype ? <Floatingmsg message= {message} msgtype = {msgtype} />:null}
+    {message && msgtype ? <Floatingmsg message= {message} msgtype = {msgtype} time ="10" />:null}
     </div>
     </>
   )

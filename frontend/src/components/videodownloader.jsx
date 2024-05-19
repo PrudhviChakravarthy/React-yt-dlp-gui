@@ -6,12 +6,17 @@ import Floatingmsg from './floatingmsg'
  
 
 
-export default function VideoDownlaoder({url, videoid, audioid , sublang}) {
+export default function VideoDownloader({url, videoid, audioid , sublang}) {
     const [connection , setconnection] = useState(0)
     const [videomsg , setvideomsg] = useState("")
     const [auidomsg , setaudiomsg] = useState("")
     const [videopercent, setvideopercent]  = useState(0)
     const [audiopercent, setaudiopercent]  = useState(0)
+
+    const [videofilesize, setvideofilesize] = useState(0)
+    const [videodwnsize, setvideodwnsize] = useState(0)
+    const [audiodwnsize, setaudiodwnsize] = useState(0)
+    const [audiofilesize, setaudiofilesize] = useState(0)
     const [downloadsure, setdownloadsure] = useState(1)
 
     const [dwnspeed, setdwnspeed] = useState(0)
@@ -44,17 +49,21 @@ export default function VideoDownlaoder({url, videoid, audioid , sublang}) {
                     console.log(event.data)
                     const match = event.data.replace(" ","").split("->");
                     if (event.data.indexOf("ERROR: Postprocessing:") !== -1){
+                        console.log("post processing failed")
                         setvideomsg(<Floatingmsg message= "post processing failed" msgtype ="error"/>)
                     }
                     if(event.data.indexOf(videoid) !== -1 && videoid !== 0){
-                        setvideomsg((pre) => pre +`videoId: ${videoid}, downlodspeed: ${match[1]}, downloadpercentage: ${match[2]} , downlaoded :${match[3]}, filesize: ${match[4]}`)
                         setdwnspeed(match[1])
+                        setvideofilesize(match[4])
+                        setvideodwnsize(match[3])
                         setvideopercent((p) => parseFloat(match[2] !== "NaN" ? match[2]: p))
                     }
                     if(event.data.indexOf(audioid) !== -1 && audioid !== 0){
                         setaudiopercent((p) => parseFloat(match[2] !== "NaN" ? match[2]: p))
                         setdwnspeed(match[1])
-                        setaudiomsg((pre) => pre +`audioId: ${audioid}, downlodspeed: ${match[1]}, downloadpercentage: ${match[2]} , downlaoded :${match[3]}, filesize: ${match[4] !== "NaN" ? match[4] : "nosize"}`)                    }
+                        setaudiofilesize(match[4])
+                        setaudiodwnsize(match[3])
+                    }
                     if(event.data === "wsclosed"){
                         socket.close();
                         console.error("connection closed")
@@ -86,15 +95,21 @@ export default function VideoDownlaoder({url, videoid, audioid , sublang}) {
 
   return (
     <div className='finaldwn'>
-        <p>Selected Formats : Video - {videoid} ,  Audio - {audioid} , Subtitle - {sublang}</p>
-        {downloadsure ? <button className='dowbtn sure' onClick={()=> {Download()}}>Are u want Downlaod</button>:null}
-        <h2> downloadspeed : {dwnspeed}</h2>
-        <h2>Video download progress</h2>
-        {/* <pre className='outputmsg'> {videomsg}</pre> */}
-        <p className='progress' style={{width :`${videopercent}%`}}> {videopercent}</p>
-        <h2>Audio download progress</h2>
-        <p className='progress' style={{width :`${audiopercent}%`}}> {audiopercent}</p>
-        {/* <pre className='outputmsg'> {auidomsg}</pre> */}
+        <div className='downloadbox'>
+            <p className='formatbox' >Selected Formats : Video - {videoid} ,  Audio - {audioid} , Subtitle - {sublang}</p>
+            {downloadsure ? <button className='dowbtn sure' onClick={()=> {Download()}}>Are u want Downlaod</button>:<h2 className='dwnspeed'> downloadspeed : {dwnspeed}</h2>}
+        </div>
+        <div className='downloadbox'>
+            <h2>Video download </h2>
+            <p className='progress' style={{width :`${videopercent}%`}}> {videopercent}</p>
+            <h2>{videodwnsize}/{videofilesize}</h2>
+        </div>
+        <div className='downloadbox'>
+            <h2>Audio download progress</h2>
+            <p className='progress' style={{width :`${audiopercent}%`}}> {audiopercent}</p>
+            <h2>{audiodwnsize}/{audiofilesize}</h2>
+        </div>
+
     </div>
   )
 }

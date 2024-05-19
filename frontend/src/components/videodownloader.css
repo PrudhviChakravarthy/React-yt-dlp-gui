@@ -73,3 +73,8 @@
 .cancel{
     background-color: rgb(247, 141, 141);
 }
+
+.downloadbox{
+    display: flex;
+    justify-content: space-around;
+}

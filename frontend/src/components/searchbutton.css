@@ -23,6 +23,23 @@
     flex-direction: column;
 }
 
+.clear{
+    width: 100px;
+    background-color: yellow;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0px 10px 14px -7px #f0f34c;
+    text-shadow: 0px 1px 0px #ffa845;
+    color: black;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clear:hover{
+    background: linear-gradient(#f3f56b, #d3f3ff);
+}
+
 .searchbox{
     border: none;
     text-align:center;

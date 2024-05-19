@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./videodetails.css"
-import VideoDownlaoder from './videodownloader'
+import VideoDownloader from './videodownloader'
 import Floatingmsg from './floatingmsg'
 
 
@@ -50,7 +50,7 @@ export default function Videodetails(props) {
             setdownload(1)
             setsure(
                 <>
-                    <VideoDownlaoder  url={props.url} audioid={audioid} videoid = {videoid} sublang = {subtitles} />
+                    <VideoDownloader  url={props.url} audioid={audioid} videoid = {videoid} sublang = {subtitles} />
                 </>)
         }
     }

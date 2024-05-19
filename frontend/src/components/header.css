@@ -1,0 +1,36 @@
+.mainheader{
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    justify-content: space-around;
+}
+.logosection{
+    width: 40vw;
+    display: grid;
+    justify-content: center;
+}
+.options{
+    padding:8px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 60px;
+}
+
+.gitlogo{
+    height: 60px;
+    cursor:pointer;
+}
+
+@media screen and (max-width:600px) {
+    .logosection{
+        width: 70vw;
+    }
+    .options{
+        width: 50px;
+    }
+    
+}

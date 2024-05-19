@@ -16,7 +16,7 @@ export default function Floatingmsg(props) {
   return (
     <>
     {visible ?(
-    <div className={'floatingbox '+props.msgtype}>
+    <div style={{animation: `floatbox ${props.time ? props.time: 4}s cubic-bezier(0,.73,.94,.87)`}} className={'floatingbox '+props.msgtype}>
         <p>{props.message}</p>
     </div>
           ):null}

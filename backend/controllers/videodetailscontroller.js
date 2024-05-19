@@ -27,7 +27,7 @@ const languages = {
 
 
 const getvideodetails = async(req,res) =>{
-    const videolink = req.body.videourl
+    const videolink = req.body.videourl || ""
     const command = `${ytdlp} --dump-json "${videolink}"`
     console.log(videolink)
     if(videolink.indexOf("list") !== -1){
@@ -70,7 +70,7 @@ const getvideodetails = async(req,res) =>{
             // videoformats[format['resolution'].split("x")[1]] = []
             all['formatid'] = format['format_id']
             all['filesize'] = format['filesize'] ? (parseFloat(format['filesize']) / (1024 * 1024)).toFixed(2)+"MB" : null;
-            all["resolution"] = all['resolution'] === "audio only"?  null : format['width']
+            all["resolution"] = all['resolution'] === "audio only"?  null : format['height']
             all['audio_channels'] = format['audio_channels'] ? format['audio_channels'] : null;
             all['language'] = format['language'] ? languages[format['language']] : null;
             all['lang'] = format['language'] ? format['language'] : null;

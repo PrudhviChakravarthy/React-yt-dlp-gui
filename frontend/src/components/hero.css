@@ -1,0 +1,82 @@
+/* App.css */
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 100vh;
+    background-color: #000000;
+  }
+  
+  .main-text {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .herobtn{
+    width: 100%;
+  }
+  
+  .main-text h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .main-text p {
+    font-size: 1.6rem;
+    color: #c4ebfa;
+  }
+  
+  .cta-buttons {
+    margin-top: 1rem;
+  }
+  
+  .cta-buttons .cta {
+    margin-right: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .store-buttons {
+    margin-top: 1rem;
+  }
+  
+  .store-buttons .store-button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    /* Add your image or 3D animation styles here */
+    width: 50%;
+    height: 100%;
+    background: url('../assets/laptophero.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+.boxformat{
+    backdrop-filter: blur(5px);
+    z-index: 0;
+
+}
