@@ -8,3 +8,5 @@ backend/temp
 backend/essentialfilesdownloader.js
 backend/videoinfo.js
 frontend/node_modules
+temp
+

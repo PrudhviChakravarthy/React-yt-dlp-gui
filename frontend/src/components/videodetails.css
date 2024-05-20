@@ -18,7 +18,7 @@
     align-items: center;
     margin: 3px;
   appearance: none;
-  background-color: #FCFCFD;
+  background-color: #636363;
   border-radius: var(--s-borderradius);
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
@@ -70,6 +70,7 @@
 .formats{
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -80,8 +81,12 @@
     height: 100%;
     margin: 3px;
     padding: 5px;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-    box-sizing: border-box;
+    background: rgb(48, 48, 48);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+/* backdrop-filter: blur( 1.5px ); */
+/* -webkit-backdrop-filter: blur( 1.5px ); */
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .language{
     background-color: rgb(54, 229, 252);

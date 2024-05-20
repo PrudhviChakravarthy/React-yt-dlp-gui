@@ -4,20 +4,20 @@
   .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     justify-content: space-between;
   }
   
   
-  .main-content {
+  .hero-content {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    height: 100vh;
+    height: 80vh;
     background-color: #000000;
   }
   
-  .main-text {
+  .hero-text {
     max-width: 50%;
     display: flex;
     flex-direction: column;
@@ -29,12 +29,12 @@
     width: 100%;
   }
   
-  .main-text h1 {
+  .hero-text h1 {
     font-size: 3rem;
     color: #fff;
   }
   
-  .main-text p {
+  .hero-text p {
     font-size: 1.6rem;
     color: #c4ebfa;
   }
@@ -67,7 +67,7 @@
     cursor: pointer;
   }
   
-  .main-image {
+  .hero-image {
     /* Add your image or 3D animation styles here */
     width: 50%;
     height: 100%;

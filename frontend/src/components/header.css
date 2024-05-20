@@ -1,7 +1,16 @@
+
+.mainheader p{
+    color: white;
+}
+
+.headerlogo{
+    height: 60px;
+}
+
 .mainheader{
     display: flex;
     width: 100vw;
-    padding: 20px;
+    padding: 5px;
     justify-content: space-around;
 }
 .logosection{
@@ -16,14 +25,27 @@
     justify-content: space-between;
     align-items: center;
 }
-img{
-    width: 60px;
-}
+
 
 .gitlogo{
-    height: 60px;
+    display: flex;
+    height: 50px;
+    padding: 2px;
+    align-items: center;
     cursor:pointer;
+    border-radius: 20px;
+    border: solid white 1px
 }
+
+.gitlogo:hover{
+    border: solid red 1px;
+
+}
+.gitlogo img{
+    height: 40px;
+}
+
+
 
 @media screen and (max-width:600px) {
     .logosection{

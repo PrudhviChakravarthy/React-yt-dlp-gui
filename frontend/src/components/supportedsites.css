@@ -1,0 +1,57 @@
+.sites{
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    padding: 2rem;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.supportedlogos{
+    width: 50vw;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 40vw;
+    background: rgba( 0, 0, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.suplogos{
+    display: flex;
+    width: 50vw;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sitestext{
+    width: 30vw;
+    height: auto;
+}
+
+.sitestext h2{
+    font-size:3rem ;
+    font-weight: 800;
+    color: white;
+}
+.sitestext p{
+    font-size:1.2rem ;
+    font-weight: 300;
+    color: white;
+}
+.supportlogos{
+    height: 130px;
+    width: 130px;
+    margin: 5px;
+}
+
+
