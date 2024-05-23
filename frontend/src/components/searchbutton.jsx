@@ -4,6 +4,7 @@ import "./searchbutton.css"
 import Loading from './loading'
 import Videodetails from './videodetails'
 import Floatingmsg from './floatingmsg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -55,18 +56,17 @@ export default function SearchButton() {
   return (
     <>
     <div  className='search'>
-        <input 
-          className='searchbox'
-          placeholder='Paste Your Video link here'
-          value={link}
-          onChange={linkset}
-          ></input>
-          <div className='clear' onClick={clearsearch}><p>Clear</p></div>
+      <input className='search' placeholder='Paste Your Video link here' value={link} onChange={linkset} />
+        <div class="sxc">
+          <div  className='clear' onClick={clearsearch}><p>X</p></div>
+          <Link to="/videodetials">
           <button onClick={getvideolink} className='searchbtn'>Search</button>
+          </Link>
+        </div>
     </div>
     <div className='maincontent'>
     {loading ?<Loading/> : videodetails 
-    ?<Videodetails  url ={link} metadata={videodetails.metadata} audioformats = {videodetails.audioformats} videoformats = {videodetails.videoformats} subtitles = {videodetails.subtitles} />:<h1>Main page here</h1>}
+    ?<Videodetails  url ={link} metadata={videodetails.metadata} audioformats = {videodetails.audioformats} videoformats = {videodetails.videoformats} subtitles = {videodetails.subtitles} />:null}
     {message && msgtype ? <Floatingmsg message= {message} msgtype = {msgtype} time ="10" />:null}
     </div>
     </>

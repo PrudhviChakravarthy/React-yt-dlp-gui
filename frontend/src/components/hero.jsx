@@ -10,7 +10,7 @@ export default function Hero() {
           <h1>The one stop Yt-dlp gui downloder.</h1>
           <p>Download videos from multiple sites effortlessly. Select formats, view options, and save your favorite content with our easy-to-use tool.</p>
           <Link to="search">
-            <button  className='boxesformat herobtn'>Search Videos<img className='rightarrow' src={rightarrow}></img> </button>
+            <button  className='boxesformat herobtn'>Download Media<img className='rightarrow' src={rightarrow}></img> </button>
           </Link>
         </div>
         <div className="hero-image">

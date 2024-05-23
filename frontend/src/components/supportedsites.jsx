@@ -17,7 +17,7 @@ export default function Supportedsites() {
             </div>
             <div>
                 <a target="_blank" href="https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/supportedsites.md">
-                    <button className="boxesformat">+1500 sites* <img style={{width:"30px"}} src={rightarrow} alt="" /></button>
+                    <button className="boxesformat sitesbtn">+1500 sites* <img style={{width:"30px"}} src={rightarrow} alt="" /></button>
                 </a>
             </div>
         </div>

@@ -2,6 +2,7 @@ import "./header.css"
 import logo from "../assets/logo.svg"
 import gitlogo from "../assets/github-logo.svg"
 import { Link } from "react-router-dom"
+import SearchButton from "./searchbutton"
 
 export default function Header() {
   return (
@@ -11,20 +12,15 @@ export default function Header() {
         <img className="headerlogo" src={logo} alt="" />
         </Link>
       </div>
+      <SearchButton/>
       <div className='options'>
-        <a href="#howto">
-          <p>How to use?</p>
-        </a>
-        <a href="#supportedsites">
-          <p>Supported Sites</p>
-        </a>
-        <p>donate</p>
-        <a  target="_blank" href="https://github.com/PrudhviChakravarthy/React-yt-dlp-gui">
+        <a  target="_blank" rel="noreferrer" href="https://github.com/PrudhviChakravarthy/React-yt-dlp-gui">
           <div className="gitlogo">
             <img   src={gitlogo} alt="" />
             <p>/React-yt-dlp-gui</p>
           </div>
         </a>
+        <p>donate</p>
       </div>
     </div>
 

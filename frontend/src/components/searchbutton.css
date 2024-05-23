@@ -1,13 +1,14 @@
-:root{
-    --lightred : #fa9494;
-    --lightblue: #538eed;
-}
 
 .search{
     height: 50px;
-    /* width: 100vw; */
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: relative;
+    border-radius: 30px;
+    background:rgb(0,0,0,0.3);
+    border: 0.5px solid white;
+    outline: none;
+    color: white;
+    text-align: center;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,8 @@
 .maincontent{
     min-height: 100vh;
     margin-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
     display: flex;
     background-color: black;
     justify-content: center;
@@ -25,13 +27,12 @@
 }
 
 .clear{
-    color: black !important;
-    width: 100px;
-    background-color: rgb(124, 124, 124);
+    width: 30px;
+    background-color: rgb(0, 0, 0);
     height: 50px;
+    font-size: 15px;
     text-align: center;
-    box-shadow: 0px 10px 14px -7px #f0f34c;
-    text-shadow: 0px 1px 0px #ffa845;
+    border: 0px 10px 14px -7px #ffffff;
     color: black;
     font-weight: 400;
     align-items: center;
@@ -39,39 +40,28 @@
 }
 
 .clear:hover{
-    background: linear-gradient(#f3f56b, #d3f3ff);
-}
-
-.searchbox{
-    border: none;
-    text-align:center;
-    font-size: large;
-    background-color:var(--primarycolor);
-    box-shadow: 0px 10px 14px -7px #ebb6a2;
-    border-radius: var(--p-borderradius) 0  0 var(--p-borderradius) ;
-    padding-left: 2px;
-    margin-left: 20px;
-    width:700px;
-    height: 50px;
-    font-weight: 400;
-    outline: none;
+    color:red;
+}.sxc{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
 }
 
 .searchbtn{
-        align-self: flex-end;
-        padding: 2px;
         font-size:15px;
         font-family:Arial;
-        width:140px;
-        height:50px;
+        width:100px;
+        height:40px;
         border-width:1px;
         color:#fffb00;
         border-color:#599bb3;
         font-weight:bold;
-        border-radius:0 var(--p-borderradius) var(--p-borderradius) 0  ;
+        border-radius:20px  ;
         box-shadow: 0px 10px 14px -7px #276873;
         text-shadow: 0px 1px 0px #3d768a;
-        background:linear-gradient(#599bb3, #408c99);
+        background:black;
     }
       
 .searchbtn:hover {

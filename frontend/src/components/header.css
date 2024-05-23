@@ -14,13 +14,13 @@
     justify-content: space-around;
 }
 .logosection{
-    width: 40vw;
+    width: 10vw;
     display: grid;
     justify-content: center;
 }
 .options{
     padding:8px;
-    width: 40vw;
+    width: 18rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
